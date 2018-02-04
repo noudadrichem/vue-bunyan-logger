@@ -1,0 +1,29 @@
+{
+  "name": "vue-bunyan-logger",
+  "version": "0.0.5",
+  "description": "A Vue plugin to spits out pretty logs to your browser console. Core comes from Bunyan logger.",
+  "main": "./lib/index.js",
+  "module": "./lib/index.m.js",
+  "author": "Noud Adrichem <noud.adrichem@hotmail.com> (https://noudadrichem.com)",
+  "scripts": {
+    "build": "microbundle -o './lib/index.js'",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "vue",
+    "logger",
+    "bunyan",
+    "browser-bunyan"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noudadrichem/vue-bunyan-logger.git"
+  },
+  "devDependencies": {
+    "microbundle": "^0.2.4"
+  },
+  "dependencies": {
+    "browser-bunyan": "^1.2.2",
+  }
+}
