@@ -4,7 +4,7 @@ import {
   stdSerializers
 } from 'browser-bunyan'
 
-const log = ({ name, level }) = createLogger({
+const log = ({ name, level }) => createLogger({
   name: name,
   level: level,
   stream: new ConsoleFormattedStream(),
