@@ -24,6 +24,6 @@
     "microbundle": "^0.2.4"
   },
   "dependencies": {
-    "browser-bunyan": "^1.2.2",
+    "browser-bunyan": "^1.2.2"
   }
 }
