@@ -1,6 +1,6 @@
 {
   "name": "vue-bunyan-logger",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "A Vue plugin to spits out pretty logs to your browser console. Core comes from Bunyan logger.",
   "main": "./lib/index.js",
   "module": "./lib/index.m.js",
