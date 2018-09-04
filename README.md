@@ -13,7 +13,7 @@ npm install vue-bunyan-logger@latest
 var Vue = require('vue')
 var logger = require('vue-bunyan-logger')
 
-Vue.use(logger)
+Vue.use(logger, { name: 'my-logger' }) // bind the plugin and include the logger name
 
 ```
 
